@@ -1,0 +1,8 @@
+numpy==1.25.0
+torch>=1.12.0
+scipy
+scikit-learn
+#argparse included with python >= 3.2
+streamlit
+sentencepiece
+#kagglehub==0.2.5  (only needed by PartitionGemma.ipynb to download weights)

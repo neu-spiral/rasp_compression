@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+*.tar
+*.pth
+*.zip
+*.model
+*.DS_Store
+# Except this file
+!.gitignore

@@ -1,0 +1,5 @@
+# Ignore everything in this directory
+*.json
+*.txt
+# Except this file
+!.gitignore
