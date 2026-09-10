@@ -2,9 +2,9 @@
 
 This repository is the Raspberry Pi, autoregressive-LLM (Gemma-2 2B) deployment of the work:
 
-> **Communication-Aware Model Distributed Inference via Latent Representation Compression** (MobiHoc 2026)
+**Communication-Aware Model Distributed Inference via Latent Representation Compression** (MobiHoc 2026)
 
-The compression optimizer code (dependency) is available [here](https://github.com/Peyman-gholami/Inference_Optimizer/tree/public-release).
+The optimizer and offline simulation code (dependency) is available [here](https://github.com/neu-spiral/communication-aware-inference).
 
 Gemma-2 2B is split layer by layer and run as a pipeline across a cluster of Raspberry Pis. Between machines, the intermediate **activations** are compressed by a factor η ∈ (0, 1] to meet a target token throughput over a fluctuating WiFi link — trading a little accuracy for lower communication delay. A central controller measures each link and picks the per-cut-point compression rate every time slot, using either a channel-state-aware (CSI) closed-form allocation or a channel-oblivious (no-CSI) stochastic dual-descent policy.
 
