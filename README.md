@@ -134,3 +134,7 @@ python measure_ppl.py --weights_dir weights/1.1-2b-it \
     --prompts_dir results/run1 --responses_dir results/run1 \
     --reference_dir results/no_compression --num_prompts 7
 ```
+
+## Acknowledgments
+
+This work was supported by the National Science Foundation through the AI-EDGE Institute (Award No. 2112471), by the Army Research Laboratory under Grant No. W911NF-24-2-0172, and by the Army Research Office under Grant No. W911NF-24-1-0103.
